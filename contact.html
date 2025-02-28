@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Contacter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/OIG2.jpeg" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li style="--i: 1;"><a href="index.html">ACCUEIL</a></li>
+                <li style="--i: 2;"><a href="services.html">SERVICES</a></li>
+                <li style="--i: 3;"><a href="about.html">A PROPOS</a></li>
+                <li style="--i: 4;"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero small-hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1>ME CONTACTER</h1>
+                <p>Contactez-moi pour discuter de votre projet ou obtenir des renseignements</p>
+            </div>
+        </section>
+        <section class="contact-form">
+            <div class="container">
+                <h2>Envoyez un message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section class="contact-info">
+            <div class="container">
+                <h2>Coordonnées</h2>
+                <div class="info-grid">
+                    <div class="info-item" style="--i: 1;">
+                        <h3>LinkedIn</h3>
+                        <p><a href="https://linkedin.com/in/aurélien-baillif974" target="_blank">linkedin.com/in/aurélien-baillif974</a></p>
+                    </div>
+                    <div class="info-item" style="--i: 2;">
+                        <h3>Email</h3>
+                        <p><a href="mailto:devrun.ent@gmail.com">devrun.ent@gmail.com</a></p>
+                    </div>
+                    <div class="info-item" style="--i: 3;">
+                        <h3>Téléphone</h3>
+                        <p>06 92 28 25 10</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 DevRun.com - All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
